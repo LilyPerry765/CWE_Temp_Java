@@ -1,0 +1,7 @@
+#(CWE-1004)
+
+String sessionID = generateSessionId(); 
+Cookie c = new Cookie("session_id", sessionID); 
+response.addCookie(c); 
+
+
